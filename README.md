@@ -8,18 +8,23 @@ Käyttäjä voi hakea tietokannasta musiikkia hakien esimerkiksi kappeleiden esi
 Tietokannan tulee sisältää ainakin seuraavat tietokantataulut:
 
 ARTISTI
+
 (id INTEGER PRIMARY KEY, nimi TEXT, ensisijainenGenre INTEGER (references GENRE)
 
-ALBUMI  
+ALBUMI 
+
 (id INTEGER PRIMARY KEY, nimi TEXT, artistiId INTEGER (references ARTISTI), julkaisuVuosi INTEGER)
 
 KAPPALE 
+
 (id INTEGER PRIMARY KEY, nimi TEXT, albumiId INTEGER (references ALBUMI), kesto INTEGER)
 
-GENRE   
+GENRE 
+
 (id INTEGER PRIMARY KEY, nimi TEXT)
 
 KAPPALEGENRE 
+
 (id INTEGER PRIMAR KEY, kappaleId INTEGER (references KAPPALE), genreId INTEGER (references GENRE))
 
 
