@@ -1,0 +1,1 @@
+Tarkoitukseni on luoda kurssilla Tietokantasovellus, jolla käyttäjä voi tarkastella musiikkitietokannasta löytyviä tietoja sekä luoda ohjelman avustamana soittolistoja tietokannasta löytyvistä kappaleista.
