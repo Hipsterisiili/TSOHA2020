@@ -1,4 +1,7 @@
 # TSOHA2020
+
+HUOM: Projekti merkittävästi aikataulusta jäljessä. Aikomukseni on kiihdyttää tahtia merkittäväsati seuraavina viikkoina.
+
 Musiikkitietokantasovellus, josta käyttäjä voi tarkastella musiikkitietokannasta löytyviä tietoja sekä luoda ohjelman avustamana soittolistoja tietokannasta löytyvistä kappaleista.
 
 Sovellus tulee sisältämään kaksi käyttäjäroolia: "admin" ja "user". User voi tarkastella tietokantaa ja tehdä sieltä hakuja kun taas admin voi sen lisäksi tehdä muutoksia tietokantaan.
